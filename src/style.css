@@ -1,0 +1,34 @@
+html{
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 5em;
+}
+
+#dog-image-container{ 
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+
+    overflow: auto;
+
+    border: solid 5px #aaa8a8;
+}
+
+.imageGrid {
+    padding: auto;
+    margin: auto;
+    height: auto;
+    overflow: auto;
+    max-width: 100%;
+}
+
+.imageGrid img{
+    padding: 1em;
+    margin: auto;
+    object-fit: contain;
+    object-position: 50% 50%;
+}
+
+
